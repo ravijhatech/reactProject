@@ -1,0 +1,33 @@
+
+.cardtext{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    text-overflow: ellipsis;
+    display: flex;
+    margin-top: 65px;
+    color: wheat;
+    
+
+}
+.cardstyle{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 20px;
+   
+    
+
+}
+.cardstyle:hover{
+    transform: scale(1.1);
+    color: white;
+    font-size: 45;
+    font-weight: bold;
+}

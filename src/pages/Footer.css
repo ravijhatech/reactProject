@@ -1,0 +1,13 @@
+.footer{
+   background-color: black;
+   height: 100px;
+}
+.label{
+    margin-left: 200px;
+}
+.rowcard{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
