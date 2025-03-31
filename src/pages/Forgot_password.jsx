@@ -90,7 +90,7 @@ const ChangePassword = () => {
 
     try {
       // API Call
-      const response = await axios.post("http://localhost:5000/change-password",formData);
+      const response = await axios.post("https://reactprojectbackend-4f8r.onrender.com/change-password",formData);
       
        toast.success('Password change Sucessfully!',{
                 position:"top-right",

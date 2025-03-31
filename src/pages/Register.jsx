@@ -23,7 +23,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/register', formData);
+      const response = await axios.post('https://reactprojectbackend-4f8r.onrender.com/register', formData);
        toast.success('User Registration Sucessfully',{
                   position:"top-right",
                   autoClose:3000,

@@ -9,7 +9,7 @@ const TotalStudentRegistration = () => {
 
     useEffect(() => {
         
-        axios.get('http://localhost:5000/student-addmission/fetch') 
+        axios.get('https://reactprojectbackend-4f8r.onrender.com/student-addmission/fetch') 
              
             .then((response) => {
                 setData(response.data);    

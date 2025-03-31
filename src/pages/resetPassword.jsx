@@ -41,7 +41,7 @@ const App = () => {
       return;
     }
     try {
-      const response = await axios.post("http://localhost:5000/changed-password", {
+      const response = await axios.post("https://reactprojectbackend-4f8r.onrender.com/changed-password", {
         email,
         newPassword,
       });

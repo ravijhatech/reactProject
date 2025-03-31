@@ -7,7 +7,7 @@ const RegisterUserHistory = () => {
     
         useEffect(() => {
             
-            axios.get('http://localhost:5000/register/fetch') 
+            axios.get('https://reactprojectbackend-4f8r.onrender.com/register/fetch') 
                  
                 .then((response) => {
                     setData(response.data);    

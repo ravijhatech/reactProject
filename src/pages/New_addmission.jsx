@@ -37,7 +37,7 @@ const StudentAdmissionForm = () => {
 
     try {
 
-      const response = await axios.post('http://localhost:5000/student-addmission', formData);
+      const response = await axios.post('https://reactprojectbackend-4f8r.onrender.com/student-addmission', formData);
 
       if (response.status === 200) {
 

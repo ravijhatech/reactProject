@@ -23,7 +23,7 @@ const Protected = () => {
 
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/protected', {
+        const response = await axios.get('https://reactprojectbackend-4f8r.onrender.com/protected', {
             
           headers: { Authorization: `Bearer ${token}` },
           
