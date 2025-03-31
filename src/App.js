@@ -16,6 +16,7 @@ import RegisterUserHistory from './pages/RegisterUserHistory';
 import Attendence from './pages/Attendence';
 import AllHistrory from './pages/AllHistrory';
 import ExamResult from './pages/ExamResult';
+import ChangePassword from './pages/Forgot_password';
 
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
 
   return (
     <Routes>
-
+       <Route path='/forgotpassword' element={<ChangePassword />} />
       <Route path='/result' element={<ExamResult />} />
       <Route path='/allhistrory' element={<AllHistrory />} />
       <Route path='/attendence' element={<Attendence />} />

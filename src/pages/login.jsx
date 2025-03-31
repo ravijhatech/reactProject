@@ -81,7 +81,7 @@ function Login() {
     <span className="span" onClick={()=>Navigate('/register')}>Create a New Account</span>
     
     <div>
-    <span className="password" onClick={()=>Navigate('/otp-forgot-password')}>Forgot Password ?</span>
+    <span className="password" onClick={()=>Navigate('/forgotpassword')}>Forgot Password ?</span>
     </div>
       </form>
       <ToastContainer />
