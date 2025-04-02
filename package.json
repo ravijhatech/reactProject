@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 {
 
   "homepage": ".",
 
+=======
+  "homepage":".",
+>>>>>>> 5a639acf7377084f3a27b535bc995182cdb72faa
   "name": "ecommerce_website",
 
   "version": "0.1.0",
